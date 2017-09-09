@@ -1,3 +1,16 @@
 body { 
     padding-top: 70px; 
 }
+
+#parallax-home { 
+    /* The image used */
+    background-image: url("../img/escritoriov2.jpg");
+
+    /* Set a specific height */
+    height: 60%; 
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
