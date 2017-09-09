@@ -7,26 +7,41 @@
 
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"/>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/styles.css">
 
 
     <title>Isaac Yriarte</title>
 </head>
 <body>
+    
     <div class="container-fluid">        
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header"> 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">Isaac Yriarte</a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Sobre mí</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre mí</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
             </div><!-- /.container-fluid -->
         </nav>
     </div>
@@ -285,4 +300,5 @@
         </div>-->
     <!--</div>-->
 </body>
+
 </html>
