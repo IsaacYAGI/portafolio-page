@@ -65,6 +65,8 @@ body {
     /* The image used */
     background-image: url("../img/consultor.jpg");
 
+    color: white;
+
     /* Set a specific height */
     height: 70%; 
 
